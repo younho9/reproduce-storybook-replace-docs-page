@@ -4937,6 +4937,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chromatic@npm:^6.5.3":
+  version: 6.5.3
+  resolution: "chromatic@npm:6.5.3"
+  bin:
+    chroma: bin/main.cjs
+    chromatic: bin/main.cjs
+    chromatic-cli: bin/main.cjs
+  checksum: 42b824ec1e767d48fee6e2849e338264dbf20413d46074548340958e9d6407c37bb3d06429bf6101ff1c48bb5afbb2b95b48b24481112ca797e98c2c903521fa
+  languageName: node
+  linkType: hard
+
 "chrome-trace-event@npm:^1.0.2":
   version: 1.0.3
   resolution: "chrome-trace-event@npm:1.0.3"
@@ -10539,6 +10550,7 @@ __metadata:
     "@storybook/react": ^6.5.0-alpha.52
     "@storybook/testing-library": ^0.0.9
     babel-loader: ^8.2.4
+    chromatic: ^6.5.3
     prop-types: ^15.8.1
     react: ^18.0.0
     react-dom: ^18.0.0

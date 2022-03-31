@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Button } from './Button';
+import MDXDocs from './Introduction.stories.mdx';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -9,6 +10,13 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
+  },
+  parameters: {
+    // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
+    layout: 'fullscreen',
+    docs: {
+      page: MDXDocs,
+    },
   },
 };
 
